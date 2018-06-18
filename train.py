@@ -97,7 +97,7 @@ def device_and_target():
 
 # Load data
 print("Loading data...")
-x_text, y = data_helpers.load_data_and_labels("h3_temp1.pos","h3.neg")
+x_text, y = data_helpers.load_data_and_labels("data.pos","data.neg")
 
 # Build vocabulary
 max_document_length = 220
